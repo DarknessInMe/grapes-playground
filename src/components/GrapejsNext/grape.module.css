@@ -1,0 +1,27 @@
+.container {
+   display: flex;
+}
+
+.blocks {
+   width: 25%;
+}
+
+.content {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+.tools {
+   display: flex;
+   padding: 10px;
+}
+
+.tools button {
+   margin: 0 10px;
+   padding: 10px;
+}
+
+.canvas {
+   flex: 1
+}
